@@ -1,0 +1,4 @@
+set disablesites=www.google.com/reader/view
+set searchengines+={"wp":"http://en.wikipedia.org/wiki/{{keyword}}"}
+map R <C-r>
+map <M-R> R
