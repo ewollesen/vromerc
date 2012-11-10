@@ -1,4 +1,13 @@
-set disablesites=www.google.com/reader/view,docs.google.com/spreadsheet
-set searchengines+={"wp":"http://en.wikipedia.org/wiki/{{keyword}}"}
+
 map R <C-r>
 map <M-R> R
+
+map d 20j
+map D 20k
+
+map J gt
+map K gT
+
+set searchengines+={"baidu":"http://www.baidu.com/s?wd={{keyword}}", "dict":"http://dict.youdao.com/search?q={{keyword}}"}
+set disablesites=www.google.com/reader/view,docs.google.com/spreadsheet
+set searchengines+={"wp":"http://en.wikipedia.org/wiki/{{keyword}}"}
