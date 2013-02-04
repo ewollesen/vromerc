@@ -1,7 +1,7 @@
 " NOTE you must separate sites with ", " not a simple "," (no quotes).
 set disablesites=www.google.com/reader/view, docs.google.com/spreadsheet
 
-set searchengines+={"wp":"http://en.wikipedia.org/wiki/{{keyword}}","discogs":"http://discogs.com/search?q={{keyword}}","gh":"http://github.com/search?q={{keyword}}","gcache":"http://webcache.googleusercontent.com/search?q=cache:{{keyword}}","image":"http://www.google.com/search?hl=en&tbm=isch&q={{keyword}}","rd":"http://www.ruby-doc.org/q/{{keyword}}","word":"http://www.wordnik.com/words/{{keyword}}"}
+set searchengines+={"mdn":"https://developer.mozilla.org/en-US/search?q={{keyword}}","wp":"http://en.wikipedia.org/wiki/{{keyword}}","discogs":"http://discogs.com/search?q={{keyword}}","gh":"http://github.com/search?q={{keyword}}","gcache":"http://webcache.googleusercontent.com/search?q=cache:{{keyword}}","image":"http://www.google.com/search?hl=en&tbm=isch&q={{keyword}}","rd":"http://www.ruby-doc.org/q/{{keyword}}","word":"http://www.wordnik.com/words/{{keyword}}"}
 
 map R <C-r>
 map <M-R> R
